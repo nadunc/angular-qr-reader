@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+.full-page{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(47, 83, 136, 0.08);
+}
+
+.btn-rounded{
+  border-radius: 7em;
+}
