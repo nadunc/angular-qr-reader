@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1555586420317,
+  "timestamp": 1555587148607,
   "index": "https://nadunc.github.io/ng-qr-dist/index.html",
   "assetGroups": [
     {
@@ -16,7 +16,7 @@
         "https://nadunc.github.io/ng-qr-dist/main.494984b5013300e9e8d9.js",
         "https://nadunc.github.io/ng-qr-dist/polyfills.8bbb231b43165d65d357.js",
         "https://nadunc.github.io/ng-qr-dist/runtime.26209474bfa8dc87a77c.js",
-        "https://nadunc.github.io/ng-qr-dist/styles.925f3adcd926c68456e0.css"
+        "https://nadunc.github.io/ng-qr-dist/styles.a19e6e4b321f795ffe67.css"
       ],
       "patterns": []
     },
@@ -113,11 +113,11 @@
     "https://nadunc.github.io/ng-qr-dist/assets/images/whitepaper-mobile_0.png": "74978b00b0f7c84550fa475b1442c264504a930e",
     "https://nadunc.github.io/ng-qr-dist/es2015-polyfills.1e04665e16f944715fd2.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
     "https://nadunc.github.io/ng-qr-dist/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://nadunc.github.io/ng-qr-dist/index.html": "51542f1ed90fa4f7336b50c33040c4100cf9e395",
+    "https://nadunc.github.io/ng-qr-dist/index.html": "64995b47a731e86045d43910b2cd84f697b78eeb",
     "https://nadunc.github.io/ng-qr-dist/main.494984b5013300e9e8d9.js": "5649994d3185bb0ecd9e3ad7870f929f200f96ba",
     "https://nadunc.github.io/ng-qr-dist/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "https://nadunc.github.io/ng-qr-dist/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "https://nadunc.github.io/ng-qr-dist/styles.925f3adcd926c68456e0.css": "e0c1988ec30a0a8357b25dd7ea8a38f35fa5f45c"
+    "https://nadunc.github.io/ng-qr-dist/styles.a19e6e4b321f795ffe67.css": "2b093290059ee19ae1419c4c202cf0fe7ab2226f"
   },
   "navigationUrls": [
     {
