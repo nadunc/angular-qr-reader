@@ -23,6 +23,8 @@
     "@angular/service-worker": "~7.2.0",
     "angular-bootstrap-md": "^7.5.0",
     "core-js": "^2.5.4",
+    "http-server": "^0.11.1",
+    "jsqr": "^1.2.0",
     "pubsub-js": "^1.7.0",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",

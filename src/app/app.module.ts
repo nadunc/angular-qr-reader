@@ -18,7 +18,7 @@ import { ResultComponent } from './result/result.component';
   ],
   imports: [
     BrowserModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    ServiceWorkerModule.register('ngsw-worker.js', {enabled: environment.production}),
     MDBBootstrapModule.forRoot()
   ],
   providers: [],

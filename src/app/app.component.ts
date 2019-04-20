@@ -9,16 +9,18 @@ import PubSub from 'pubsub-js';
 
 export class AppComponent {
   title = 'angular-qr-reader';
+  decodedQR = '';
 
   activeComponent = 'home';
 
   mySubscriber = (msg, data) => {
     console.log(msg, data);
     if (msg === 'SHOW_COMPONENT') {
-      if (data === 'scanner') {
+      if (data.page === 'scanner') {
         this.setActiveComponent('scanner');
-      } else if (data === 'result') {
+      } else if (data.page === 'result') {
         this.setActiveComponent('result');
+        this.decodedQR = data.payload;
       } else {
         this.setActiveComponent('home');
       }

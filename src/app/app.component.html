@@ -8,7 +8,7 @@
 
       <app-home *ngIf="activeComponent==='home'"></app-home>
       <app-scanner *ngIf="activeComponent==='scanner'"></app-scanner>
-      <app-result *ngIf="activeComponent==='result'"></app-result>
+      <app-result *ngIf="activeComponent==='result'" [decodedQR]="decodedQR"></app-result>
     </div>
   </div>
 </div>

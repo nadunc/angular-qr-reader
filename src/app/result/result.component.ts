@@ -1,5 +1,6 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, Input} from '@angular/core';
 import PubSub from 'pubsub-js';
+import jsQR from 'jsqr';
 
 @Component({
   selector: 'app-result',
@@ -7,6 +8,7 @@ import PubSub from 'pubsub-js';
   styleUrls: ['./result.component.scss']
 })
 export class ResultComponent implements OnInit {
+  @Input() decodedQR: string;
 
   constructor() {
   }
@@ -15,6 +17,7 @@ export class ResultComponent implements OnInit {
   }
 
   onScanAnother() {
-    PubSub.publish('SHOW_COMPONENT', 'home');
+    PubSub.publish('SHOW_COMPONENT', {page: 'home'});
   }
+
 }

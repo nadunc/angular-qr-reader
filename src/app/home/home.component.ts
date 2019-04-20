@@ -15,6 +15,6 @@ export class HomeComponent implements OnInit {
   }
 
   onClickScan() {
-    PubSub.publish('SHOW_COMPONENT', 'scanner');
+    PubSub.publish('SHOW_COMPONENT', {page: 'scanner'});
   }
 }
