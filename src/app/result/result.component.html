@@ -1,10 +1,16 @@
-<h3>
-  <img src="assets/images/complete.png" width="20px"> Scan complete!
-</h3>
+<div class="row">
+  <div class="col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2">
+    <h2>
+      <img src="assets/images/scan_complete_tick.png" alt="" class="scan-complete-tick"> Scan complete!
+    </h2>
 
-<div class="scan-result">
-{{decodedQR}}
+    <div class="scan-result mt-5">
+      {{decodedQR}}
+    </div>
+
+    <button (click)="onScanAnother()" mdbBtn type="button" color="primary" class="btn-rounded mt-5" mdbWavesEffect>Scan
+      Another QR Code
+    </button>
+
+  </div>
 </div>
-
-<button (click)="onScanAnother()" mdbBtn type="button" color="primary" class="btn-rounded" mdbWavesEffect>Scan Another QR Code</button>
-

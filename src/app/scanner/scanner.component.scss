@@ -1,0 +1,72 @@
+#live-video {
+  width: 100%;
+  height: auto;
+}
+
+
+.laser {
+  width: 100%;
+  margin-left: -15px;
+  background-color: #05d20b;
+  height: 3px;
+  position: absolute;
+  top: 0%;
+  z-index: 2;
+  box-shadow: 0 5px 5px #06ef0c;
+  animation: scanning 2s infinite;
+}
+
+.diode {
+  animation: beam .01s infinite;
+}
+
+@keyframes beam {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+@keyframes scanning {
+  50% {
+    transform: translateY(70vw);
+  }
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  @keyframes scanning {
+    50% {
+      transform: translateY(420px);
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  @keyframes scanning {
+    50% {
+      transform: translateY(450px);
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  @keyframes scanning {
+    50% {
+      transform: translateY(450px);
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  @keyframes scanning {
+    50% {
+      transform: translateY(540px);
+    }
+  }
+}
+

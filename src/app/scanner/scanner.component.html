@@ -1,5 +1,11 @@
-<video id="live-video" width="300" height="300" autoplay></video>
-<!--<br>-->
-<br>
-<!--<button (click)="onScanComplete()" mdbBtn type="button" color="primary" class="btn-rounded" mdbWavesEffect>SCAN COMPLETE</button>-->
+<div class="row">
+  <div class="col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+    <video id="live-video" autoplay></video>
+
+    <div class="diode" *ngIf="capture">
+      <div class="laser"></div>
+    </div>
+  </div>
+</div>
+
 
