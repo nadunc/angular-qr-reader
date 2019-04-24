@@ -40,7 +40,11 @@ export class ScannerComponent implements OnInit, AfterViewInit {
 
     const constraints = {
       audio: false,
-      video: true
+      video: {
+        facingMode : 'environment',
+        width: playerWidth,
+        height: playerWidth
+      }
     };
 
     // Attach the video stream to the video element and autoplay.
