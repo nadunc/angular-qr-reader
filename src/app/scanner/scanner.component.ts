@@ -1,6 +1,7 @@
 import {Component, OnInit, AfterViewInit} from '@angular/core';
 import PubSub from 'pubsub-js';
 import jsQR from 'jsqr';
+import adapter from 'webrtc-adapter';
 
 @Component({
   selector: 'app-scanner',
@@ -30,10 +31,16 @@ export class ScannerComponent implements OnInit, AfterViewInit {
     const canvas = document.createElement('canvas');
     // const canvas = document.getElementsByTagName('canvas')[0];
     const context = canvas.getContext('2d');
-    const captureButton = document.getElementById('capture');
+    // const captureButton = document.getElementById('capture');
+
+    const playerWidth = parseInt(window.getComputedStyle(player, null).getPropertyValue('width'));
+    player.height = playerWidth;
+    canvas.width = playerWidth;
+    canvas.height = playerWidth;
 
     const constraints = {
-      video: {width: 500, height: 500}
+      audio: false,
+      video: true
     };
 
     // Attach the video stream to the video element and autoplay.
