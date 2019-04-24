@@ -1,10 +1,6 @@
 import {Component, OnInit, AfterViewInit} from '@angular/core';
 import PubSub from 'pubsub-js';
 import jsQR from 'jsqr';
-// import Instascan from '../../assets/js/instascan.min.js';
-// import QrScanner from 'qr-scanner';
-// import * as QrScannerWorkerPath from '../../assets/js/qr-scanner-worker.min.js';
-// QrScanner.WORKER_PATH = 'assets/js/qr-scanner-worker.min.js';
 
 @Component({
   selector: 'app-scanner',
@@ -49,15 +45,6 @@ export class ScannerComponent implements OnInit, AfterViewInit {
       }).catch((err) => {
       console.log(err);
     });
-
-
-    /*captureButton.addEventListener('click', () => {
-      // Draw the video frame to the canvas.
-      context.drawImage(player, 0, 0, canvas.width, canvas.height);
-
-      const imgData = context.getImageData(0, 0, canvas.width, canvas.height);
-      this.decodeQR(imgData);
-    });*/
 
     this.interval = setInterval(() => {
       if (this.capture) {
