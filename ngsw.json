@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1556514654945,
+  "timestamp": 1556518432039,
   "index": "https://nadunc.github.io/angular-qr-reader/index.html",
   "assetGroups": [
     {
@@ -13,10 +13,10 @@
         "https://nadunc.github.io/angular-qr-reader/es2015-polyfills.1e04665e16f944715fd2.js",
         "https://nadunc.github.io/angular-qr-reader/favicon.ico",
         "https://nadunc.github.io/angular-qr-reader/index.html",
-        "https://nadunc.github.io/angular-qr-reader/main.b88349550b7309af1f85.js",
+        "https://nadunc.github.io/angular-qr-reader/main.5cb2989de52b43d3cf57.js",
         "https://nadunc.github.io/angular-qr-reader/polyfills.8bbb231b43165d65d357.js",
         "https://nadunc.github.io/angular-qr-reader/runtime.26209474bfa8dc87a77c.js",
-        "https://nadunc.github.io/angular-qr-reader/styles.a84ba2ac5be8798d4362.css"
+        "https://nadunc.github.io/angular-qr-reader/styles.748f2e942b621ca3767c.css"
       ],
       "patterns": []
     },
@@ -113,11 +113,11 @@
     "https://nadunc.github.io/angular-qr-reader/assets/images/scanner_home.png": "74978b00b0f7c84550fa475b1442c264504a930e",
     "https://nadunc.github.io/angular-qr-reader/es2015-polyfills.1e04665e16f944715fd2.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
     "https://nadunc.github.io/angular-qr-reader/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://nadunc.github.io/angular-qr-reader/index.html": "34336b0af71abe6a3c456cfa3ea4e5d2421b1fc4",
-    "https://nadunc.github.io/angular-qr-reader/main.b88349550b7309af1f85.js": "35944e248021e956a258ad8a5d4bf9df64861959",
+    "https://nadunc.github.io/angular-qr-reader/index.html": "a8cfa5759aa1ef8e977e0aa45fa36ae0ea2934c9",
+    "https://nadunc.github.io/angular-qr-reader/main.5cb2989de52b43d3cf57.js": "be779bdb4a94a061b6e58f55018bac914f407121",
     "https://nadunc.github.io/angular-qr-reader/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "https://nadunc.github.io/angular-qr-reader/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "https://nadunc.github.io/angular-qr-reader/styles.a84ba2ac5be8798d4362.css": "ce9d36d96aab7eecf73f9e428373a47f109973d2"
+    "https://nadunc.github.io/angular-qr-reader/styles.748f2e942b621ca3767c.css": "23dd0ecde14c7d338fb8e93261cf2b0c43927531"
   },
   "navigationUrls": [
     {
