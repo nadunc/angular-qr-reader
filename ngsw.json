@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1556513174580,
+  "timestamp": 1556513664212,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -8,15 +8,15 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/assets/images/qr_scan.jpg",
-        "/assets/images/whitepaper-mobile_0.png",
+        "/assets/images/scan_complete_tick.png",
+        "/assets/images/scanner_home.png",
         "/es2015-polyfills.1e04665e16f944715fd2.js",
         "/favicon.ico",
         "/index.html",
-        "/main.494984b5013300e9e8d9.js",
+        "/main.b88349550b7309af1f85.js",
         "/polyfills.8bbb231b43165d65d357.js",
         "/runtime.26209474bfa8dc87a77c.js",
-        "/styles.05c3183653acbf552975.css"
+        "/styles.c67d9b168ecf47ba9a2a.css"
       ],
       "patterns": []
     },
@@ -109,15 +109,15 @@
     "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/assets/images/qr_scan.jpg": "cb9c1a62d19a0f284f735b6b72eaf7cdf3e6f63e",
-    "/assets/images/whitepaper-mobile_0.png": "74978b00b0f7c84550fa475b1442c264504a930e",
+    "/assets/images/scan_complete_tick.png": "37e0747c41a0b145057ba81098cfee4eed4a95e8",
+    "/assets/images/scanner_home.png": "74978b00b0f7c84550fa475b1442c264504a930e",
     "/es2015-polyfills.1e04665e16f944715fd2.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/index.html": "6a51f31a39bad123dbfabd52e3dc5984239afe42",
-    "/main.494984b5013300e9e8d9.js": "5649994d3185bb0ecd9e3ad7870f929f200f96ba",
+    "/index.html": "846c0504689e35b5d79e8e773f6ed1916f33d194",
+    "/main.b88349550b7309af1f85.js": "35944e248021e956a258ad8a5d4bf9df64861959",
     "/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/styles.05c3183653acbf552975.css": "dddc6383436281470e4432ba0325fed7b69a8531"
+    "/styles.c67d9b168ecf47ba9a2a.css": "524f01c1b31201400f2a7f984bc1b4b4b8a8b9d5"
   },
   "navigationUrls": [
     {
