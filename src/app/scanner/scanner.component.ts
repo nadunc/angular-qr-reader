@@ -20,6 +20,7 @@ export class ScannerComponent implements OnInit, AfterViewInit {
   }
 
   onScanComplete(code) {
+    window.navigator.vibrate(200);
     this.capture = false;
     clearInterval(this.interval);
     this.stopMediaStream();
