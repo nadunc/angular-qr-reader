@@ -1,6 +1,6 @@
 {
-  "name": "angular-qr-reader",
-  "short_name": "angular-qr-reader",
+  "name": "Angular QR Reader PWA",
+  "short_name": "QR Reader",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
