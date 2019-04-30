@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1556610742134,
+  "timestamp": 1556611027100,
   "index": "/angular-qr-reader/index.html",
   "assetGroups": [
     {
@@ -8,13 +8,15 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
+        "/angular-qr-reader/assets/images/scan_complete_tick.png",
+        "/angular-qr-reader/assets/images/scanner_home.png",
         "/angular-qr-reader/es2015-polyfills.1e04665e16f944715fd2.js",
         "/angular-qr-reader/favicon.ico",
         "/angular-qr-reader/index.html",
         "/angular-qr-reader/main.5cb2989de52b43d3cf57.js",
         "/angular-qr-reader/polyfills.8bbb231b43165d65d357.js",
         "/angular-qr-reader/runtime.26209474bfa8dc87a77c.js",
-        "/angular-qr-reader/styles.a415195924f6f995d557.css"
+        "/angular-qr-reader/styles.dd05a4e5ebcee055af0b.css"
       ],
       "patterns": []
     },
@@ -61,9 +63,7 @@
         "/angular-qr-reader/assets/icons/icon-384x384.png",
         "/angular-qr-reader/assets/icons/icon-512x512.png",
         "/angular-qr-reader/assets/icons/icon-72x72.png",
-        "/angular-qr-reader/assets/icons/icon-96x96.png",
-        "/angular-qr-reader/assets/images/scan_complete_tick.png",
-        "/angular-qr-reader/assets/images/scanner_home.png"
+        "/angular-qr-reader/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
@@ -113,11 +113,11 @@
     "/angular-qr-reader/assets/images/scanner_home.png": "74978b00b0f7c84550fa475b1442c264504a930e",
     "/angular-qr-reader/es2015-polyfills.1e04665e16f944715fd2.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
     "/angular-qr-reader/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/angular-qr-reader/index.html": "eda5acae0f38da64f74b58a1cdec97b2c22e9a83",
+    "/angular-qr-reader/index.html": "401a523e00e186f084708dc9d096dfa9e37bc9cd",
     "/angular-qr-reader/main.5cb2989de52b43d3cf57.js": "be779bdb4a94a061b6e58f55018bac914f407121",
     "/angular-qr-reader/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "/angular-qr-reader/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/angular-qr-reader/styles.a415195924f6f995d557.css": "fd1b63d854d4adeb83c2c201369f45212f666436"
+    "/angular-qr-reader/styles.dd05a4e5ebcee055af0b.css": "34457da54d7e038cc27f5bdb1217be22290373e3"
   },
   "navigationUrls": [
     {
