@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1556618124822,
+  "timestamp": 1556618637812,
   "index": "/angular-qr-reader/index.html",
   "assetGroups": [
     {
@@ -14,7 +14,7 @@
         "/angular-qr-reader/main.5cb2989de52b43d3cf57.js",
         "/angular-qr-reader/polyfills.8bbb231b43165d65d357.js",
         "/angular-qr-reader/runtime.26209474bfa8dc87a77c.js",
-        "/angular-qr-reader/styles.9ce898c6c96e1be7cadf.css"
+        "/angular-qr-reader/styles.e796a935fe5529457222.css"
       ],
       "patterns": []
     },
@@ -113,11 +113,11 @@
     "/angular-qr-reader/assets/images/scanner_home.png": "74978b00b0f7c84550fa475b1442c264504a930e",
     "/angular-qr-reader/es2015-polyfills.1e04665e16f944715fd2.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
     "/angular-qr-reader/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/angular-qr-reader/index.html": "9c9230173e5b33da2770f988320e91eb2ec88cd2",
+    "/angular-qr-reader/index.html": "7a87a141f3f30d5b5ac41364cb638e9228a0a17e",
     "/angular-qr-reader/main.5cb2989de52b43d3cf57.js": "be779bdb4a94a061b6e58f55018bac914f407121",
     "/angular-qr-reader/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "/angular-qr-reader/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/angular-qr-reader/styles.9ce898c6c96e1be7cadf.css": "6f8cd5a1c58f65c74e278c9b43f6cadc6e6ca0d6"
+    "/angular-qr-reader/styles.e796a935fe5529457222.css": "0c50ddc03db38801e41d0da8ddbecbfb09720358"
   },
   "navigationUrls": [
     {
